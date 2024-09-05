@@ -1,4 +1,3 @@
-/* Basic reset */
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,7 @@ body {
   padding: 20px;
 }
 
-/* Header styles */
+
 .header {
   text-align: center;
   margin-bottom: 40px;
