@@ -1,0 +1,113 @@
+/* Basic reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background-color: seashell;
+  color: #333;
+  padding: 20px;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.header h1 {
+  background-color: #7b5b99;
+  color: white;
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.header p {
+  margin-top: 10px;
+  max-width: 600px;
+  margin: 10px auto;
+}
+
+/* Team Section styles */
+.team-section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #7b5b99;
+}
+
+/* Team Group styles */
+.team-group {
+  margin-bottom: 40px;
+  /* display: inline-flex; */
+}
+
+.team-title {
+  text-align: center;
+  background-color: #e3c5ff;
+  padding: 5px 0;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-radius: 20px;
+  color: #333;
+}
+
+/* Team Members styles */
+.team-members {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 10px 10px 10px 10px;
+}
+.owner {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 309px;
+  gap: 20px;
+  padding: 10px 10px 10px 10px;
+}
+
+.team-member {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  gap: 15px;
+}
+.owner img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+.team-member img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member p {
+  font-size: 14px;
+  line-height: 1.4;
+  padding: 24px 18px;
+}
+/* .para {
+  display: flex;
+} */
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .team-members {
+    display: flex;
+    flex-direction: column;
+  }
+  .team-member {
+    flex-direction: column;
+  }
+}
